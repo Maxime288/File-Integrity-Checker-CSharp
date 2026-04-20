@@ -1,0 +1,48 @@
+Infos C# Visual Studio Code : 
+
+Répertoire : C:\dev kit
+
+
+Dans VS Code, ouvrez un nouveau terminal (Ctrl + ù).
+
+Créez le dossier et initialisez le projet avec les commandes suivantes :
+
+mkdir MaCalculatrice (Crée le dossier)
+
+cd MaCalculatrice (Entre dans le dossier)
+
+dotnet new console (Crée les fichiers de base de votre programme C#)
+
+Ouvrez ce dossier dans VS Code :
+
+code .
+
+
+Étape 3 : Tester votre programme
+Avant de créer l'exécutable, testez votre code pour vous assurer qu'il fonctionne :
+
+Dans le terminal, tapez : dotnet run
+
+Le programme va se lancer directement dans la console. Tapez vos chiffres et voyez le résultat.
+
+Étape 4 : Création du "vrai" exécutable (.exe)
+Une fois que vous êtes satisfait, transformons ce projet en un logiciel que vous pouvez envoyer à un ami ou lancer depuis votre bureau sans passer par VS Code.
+
+Dans le terminal, tapez la commande de publication :
+dotnet publish -c Release -r win-x64 --self-contained
+
+Où récupérer le fichier :
+
+Allez dans votre explorateur Windows.
+
+Ouvrez votre dossier MaCalculatrice.
+
+Suivez ce chemin : bin > Release > net8.0 (ou votre version actuelle) > win-x64 > publish.
+
+
+
+Connecté Visual Studio Code à GitHub : YouTube
+
+Comment transférer du code vers GitHub depuis VSCode via Terminal
+
+https://www.youtube.com/watch?v=HX2CRPUVjMU
