@@ -17,7 +17,7 @@ C'est un excellent outil pour vérifier rapidement l'authenticité d'un fichier 
 
 ## 🛠️ Installation
 
-1. Assurez-vous d'avoir le [SDK .NET](https://dotnet.microsoft.com/download) installé sur votre machine.
+1. Assurez-vous d'avoir le [SDK .NET](https://dotnet.microsoft.com/download) installé sur votre machine et la dernière version de Git : https://git-scm.com/install/windows pour connecter Visual Studio Code à Github
 
 2. Clonez le dépôt :
    ```bash
